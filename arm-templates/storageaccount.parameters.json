@@ -4,7 +4,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "tstest00001"
+            "value": "tsdev1"
         },
         "location": {
             "value": "West Europe"
