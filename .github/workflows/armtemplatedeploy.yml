@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Azure Login
-        uses: Azure/login@v1
+        uses: Azure/login@v2
         with:
         # Credentials saved in Project Settings (Azure Secret from Azure Service Idendity Account)
             creds: ${{ secrets.AZURE_CREDENTIALS }}
